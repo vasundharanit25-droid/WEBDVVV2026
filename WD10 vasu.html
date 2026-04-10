@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iframe Demo - Maps and External Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+            margin-top: 30px;
+        }
+        iframe {
+            border: 2px solid #333;
+            margin: 10px 0;
+        }
+        .section {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iframe Demo - Maps and External Pages</h1>
+    
+    <div class="section">
+        <h2>1. Embedded Google Map</h2>
+        <p>Below is an embedded map showing a location:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1841850957506!2d-74.00601592345046!3d40.71277709999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e4f31f5d%3A0x6e7278e880e6b8e3!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1234567890" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="section">
+        <h2>2. Embedded YouTube Video</h2>
+        <p>Below is an embedded YouTube video:</p>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+    </div>
+
+    <div class="section">
+        <h2>3. External Website Embed</h2>
+        <p>Below is an embedded external webpage:</p>
+        <iframe src="https://www.example.com" width="400" height="300" title="Example Website"></iframe>
+    </div>
+
+    <div class="section">
+        <h2>4. Wikipedia Page Embed</h2>
+        <p>Below is an embedded Wikipedia page:</p>
+        <iframe src="https://en.wikipedia.org/wiki/HTML" width="400" height="300" title="Wikipedia - HTML"></iframe>
+    </div>
+
+</body>
+</html>
